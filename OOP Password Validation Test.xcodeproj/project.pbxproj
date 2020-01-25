@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD4C22D1D10743B00DFB006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD4C22C1D10743B00DFB006 /* main.m */; };
+		AAD4C2351D1086C400DFB006 /* checkPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD4C2341D1086C400DFB006 /* checkPassword.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AAD4C2271D10743B00DFB006 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AAD4C2291D10743B00DFB006 /* OOP Password Validation Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OOP Password Validation Test"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD4C22C1D10743B00DFB006 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAD4C2331D1086C400DFB006 /* checkPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkPassword.h; sourceTree = "<group>"; };
+		AAD4C2341D1086C400DFB006 /* checkPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkPassword.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD4C2261D10743B00DFB006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD4C2201D10743B00DFB006 = {
+			isa = PBXGroup;
+			children = (
+				AAD4C22B1D10743B00DFB006 /* OOP Password Validation Test */,
+				AAD4C22A1D10743B00DFB006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD4C22A1D10743B00DFB006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD4C2291D10743B00DFB006 /* OOP Password Validation Test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD4C22B1D10743B00DFB006 /* OOP Password Validation Test */ = {
+			isa = PBXGroup;
+			children = (
+				AAD4C22C1D10743B00DFB006 /* main.m */,
+				AAD4C2331D1086C400DFB006 /* checkPassword.h */,
+				AAD4C2341D1086C400DFB006 /* checkPassword.m */,
+			);
+			path = "OOP Password Validation Test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD4C2281D10743B00DFB006 /* OOP Password Validation Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD4C2301D10743B00DFB006 /* Build configuration list for PBXNativeTarget "OOP Password Validation Test" */;
+			buildPhases = (
+				AAD4C2251D10743B00DFB006 /* Sources */,
+				AAD4C2261D10743B00DFB006 /* Frameworks */,
+				AAD4C2271D10743B00DFB006 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OOP Password Validation Test";
+			productName = "OOP Password Validation Test";
+			productReference = AAD4C2291D10743B00DFB006 /* OOP Password Validation Test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD4C2211D10743B00DFB006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Marc;
+				TargetAttributes = {
+					AAD4C2281D10743B00DFB006 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = AAD4C2241D10743B00DFB006 /* Build configuration list for PBXProject "OOP Password Validation Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAD4C2201D10743B00DFB006;
+			productRefGroup = AAD4C22A1D10743B00DFB006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD4C2281D10743B00DFB006 /* OOP Password Validation Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD4C2251D10743B00DFB006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD4C22D1D10743B00DFB006 /* main.m in Sources */,
+				AAD4C2351D1086C400DFB006 /* checkPassword.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AAD4C22E1D10743B00DFB006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AAD4C22F1D10743B00DFB006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AAD4C2311D10743B00DFB006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAD4C2321D10743B00DFB006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD4C2241D10743B00DFB006 /* Build configuration list for PBXProject "OOP Password Validation Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD4C22E1D10743B00DFB006 /* Debug */,
+				AAD4C22F1D10743B00DFB006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD4C2301D10743B00DFB006 /* Build configuration list for PBXNativeTarget "OOP Password Validation Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD4C2311D10743B00DFB006 /* Debug */,
+				AAD4C2321D10743B00DFB006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAD4C2211D10743B00DFB006 /* Project object */;
+}
